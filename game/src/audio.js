@@ -1,5 +1,7 @@
 // SOLMAR HEAT - tiny WebAudio synth. No audio files: every sound is
 // an oscillator or a filtered noise burst shaped in code.
+// The engine hum tracks the car's speed, and the kit also voices a
+// two-tone siren, UI blips, impact thuds and the payday arpeggio.
 
 export class SoundKit {
   constructor() {

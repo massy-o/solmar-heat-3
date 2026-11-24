@@ -1,5 +1,7 @@
 // SOLMAR HEAT - the Solmar Bay PD: a wanted-star system with heat that
 // cools when you stay clean and hide, plus cruisers that hunt you down.
+// Stars decay faster while the player stays out of sight, and cruisers
+// spawn to match the wanted level and ram the player's car on contact.
 
 import { WORLD, WANTED, POLICE_PAINT, POLICE_STRIPE } from './config.js';
 import { Car, separateCars } from './vehicles.js';

@@ -1,5 +1,7 @@
 // SOLMAR HEAT - HUD: health, cash, wanted stars (which pulse when the
 // heat rises), speed, the mission line, toasts, and the canvas minimap.
+// All readouts are plain DOM elements updated in place, while the
+// minimap is drawn each frame on a small 2D canvas.
 
 import { WORLD } from './config.js';
 
